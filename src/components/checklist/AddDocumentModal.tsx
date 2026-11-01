@@ -109,7 +109,7 @@ export const AddDocumentModal: React.FC<AddDocumentModalProps> = ({
               <label className="block text-xs font-medium text-slate-300 mb-1">Issuer / Entity</label>
               <input
                 type="text"
-                placeholder="e.g. Capital One, Vanguard"
+                placeholder="e.g. Fidelity, Vanguard"
                 value={issuer}
                 onChange={(e) => setIssuer(e.target.value)}
                 className="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-emerald-500"

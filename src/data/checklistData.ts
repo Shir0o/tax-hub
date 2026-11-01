@@ -45,14 +45,14 @@ export const TAX_YEAR_PROFILES: Record<number, YearTaxProfile> = {
 
 const MASTER_DOC_TEMPLATES = [
   { code: 'FORM-1040', name: 'Form 1040 (U.S. Individual Income Tax Return)', category: 'Returns' as const, issuer: 'IRS' },
-  { code: 'W2-CAPONE', name: 'Form W-2 Wage and Tax Statement', category: 'Income' as const, issuer: 'Capital One Services LLC' },
+  { code: 'W2-CAPONE', name: 'Form W-2 Wage and Tax Statement', category: 'Income' as const, issuer: 'Sample Employer Services LLC' },
   { code: '1095-A', name: 'CoveredCalifornia Form 1095-A (Health Insurance Marketplace)', category: 'Healthcare' as const, issuer: 'Covered California' },
-  { code: '5498-VANGUARD', name: 'Form 5498 / 5498-SA (IRA & HSA Contributions)', category: 'Retirement' as const, issuer: 'Vanguard Group' },
-  { code: '1099-SA', name: 'Form 1099-SA (Distributions from HSA / Excess Removal)', category: 'Healthcare' as const, issuer: 'HealthEquity / Vanguard' },
-  { code: '1099-FIDELITY', name: 'Fidelity Consolidated 1099 (1099-INT / 1099-DIV / 1099-B)', category: 'Investments' as const, issuer: 'Fidelity Brokerage' },
-  { code: '1099-CAPONE', name: 'Capital One 360 Consolidated 1099-INT / 1099-DIV', category: 'Investments' as const, issuer: 'Capital One N.A.' },
-  { code: 'ONEPAY-STOCK', name: 'OnePay Stock & Equity Records (Option grants, W-2 equity)', category: 'Income' as const, issuer: 'OnePay / Shareworks' },
-  { code: '1098-E', name: 'Nelnet Form 1098-E (Student Loan Interest Statement)', category: 'Education' as const, issuer: 'Nelnet Loan Servicing' },
+  { code: '5498-VANGUARD', name: 'Form 5498 / 5498-SA (IRA & HSA Contributions)', category: 'Retirement' as const, issuer: 'Sample Custodian Group' },
+  { code: '1099-SA', name: 'Form 1099-SA (Distributions from HSA / Excess Removal)', category: 'Healthcare' as const, issuer: 'Sample Health Savings Administrator' },
+  { code: '1099-FIDELITY', name: 'Fidelity Consolidated 1099 (1099-INT / 1099-DIV / 1099-B)', category: 'Investments' as const, issuer: 'Sample Brokerage Services' },
+  { code: '1099-CAPONE', name: 'Capital One 360 Consolidated 1099-INT / 1099-DIV', category: 'Investments' as const, issuer: 'Sample Banking Partner N.A.' },
+  { code: 'ONEPAY-STOCK', name: 'OnePay Stock & Equity Records (Option grants, W-2 equity)', category: 'Income' as const, issuer: 'Sample Equity Administrator' },
+  { code: '1098-E', name: 'Nelnet Form 1098-E (Student Loan Interest Statement)', category: 'Education' as const, issuer: 'Sample Student Loan Servicing' },
 ];
 
 export const INITIAL_CHECKLIST_DOCUMENTS: TaxDocumentItem[] = [];

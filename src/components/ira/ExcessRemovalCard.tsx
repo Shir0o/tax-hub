@@ -98,7 +98,7 @@ export const ExcessRemovalCard: React.FC<ExcessRemovalCardProps> = ({ removal })
             <div className="flex items-start gap-2">
               <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 mt-0.5 flex-shrink-0" />
               <span>
-                <strong>1099-R Custodian Form:</strong> Vanguard issues Form 1099-R showing Code 8 or P in Box 7 ("Excess contribution plus earnings/additions to an IRA").
+                <strong>1099-R Custodian Form:</strong> The IRA custodian issues Form 1099-R showing Code 8 or P in Box 7 ("Excess contribution plus earnings/additions to an IRA").
               </span>
             </div>
           </div>

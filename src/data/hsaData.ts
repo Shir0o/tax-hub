@@ -4,7 +4,7 @@ export const INITIAL_HSA_RECORDS: HsaRecord[] = [
   {
     id: 'hsa-2021',
     year: 2021,
-    institution: 'Vanguard Health Savings',
+    institution: 'Sample Health Savings',
     accountNumberMasked: '••••4819',
     yearEndFmv: 3842.10,
     annualContributions: 3600.00,
@@ -19,7 +19,7 @@ export const INITIAL_HSA_RECORDS: HsaRecord[] = [
   {
     id: 'hsa-2022',
     year: 2022,
-    institution: 'Vanguard Health Savings',
+    institution: 'Sample Health Savings',
     accountNumberMasked: '••••4819',
     yearEndFmv: 7210.55,
     annualContributions: 3650.00,
@@ -34,7 +34,7 @@ export const INITIAL_HSA_RECORDS: HsaRecord[] = [
   {
     id: 'hsa-2023',
     year: 2023,
-    institution: 'HealthEquity / Vanguard',
+    institution: 'Sample Health Savings Administrator',
     accountNumberMasked: '••••7204',
     yearEndFmv: 11940.22,
     annualContributions: 3850.00,
