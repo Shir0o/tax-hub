@@ -65,6 +65,8 @@ export const HsaModal: React.FC<HsaModalProps> = ({
             </p>
           </div>
           <button
+            type="button"
+            aria-label="Close modal"
             onClick={onClose}
             className="p-1 rounded-lg text-slate-400 hover:text-slate-200 hover:bg-slate-800"
           >
@@ -80,7 +82,7 @@ export const HsaModal: React.FC<HsaModalProps> = ({
                 type="number"
                 value={year}
                 onChange={(e) => setYear(parseInt(e.target.value) || 2025)}
-                className="w-full bg-slate-850 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-emerald-500"
+                className="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-emerald-500"
                 required
               />
             </div>
@@ -90,7 +92,7 @@ export const HsaModal: React.FC<HsaModalProps> = ({
                 type="text"
                 value={institution}
                 onChange={(e) => setInstitution(e.target.value)}
-                className="w-full bg-slate-850 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-emerald-500"
+                className="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-emerald-500"
                 required
               />
             </div>
@@ -100,7 +102,7 @@ export const HsaModal: React.FC<HsaModalProps> = ({
                 type="text"
                 value={accountNumberMasked}
                 onChange={(e) => setAccountNumberMasked(e.target.value)}
-                className="w-full bg-slate-850 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-emerald-500"
+                className="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-emerald-500"
               />
             </div>
           </div>
@@ -117,7 +119,7 @@ export const HsaModal: React.FC<HsaModalProps> = ({
                   step="0.01"
                   value={yearEndFmv}
                   onChange={(e) => setYearEndFmv(parseFloat(e.target.value) || 0)}
-                  className="w-full bg-slate-850 border border-slate-700 rounded-lg pl-7 pr-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-emerald-500"
+                  className="w-full bg-slate-950 border border-slate-700 rounded-lg pl-7 pr-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-emerald-500"
                 />
               </div>
             </div>
@@ -133,7 +135,7 @@ export const HsaModal: React.FC<HsaModalProps> = ({
                   step="0.01"
                   value={annualContributions}
                   onChange={(e) => setAnnualContributions(parseFloat(e.target.value) || 0)}
-                  className="w-full bg-slate-850 border border-slate-700 rounded-lg pl-7 pr-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-emerald-500"
+                  className="w-full bg-slate-950 border border-slate-700 rounded-lg pl-7 pr-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-emerald-500"
                   required
                 />
               </div>
@@ -200,7 +202,7 @@ export const HsaModal: React.FC<HsaModalProps> = ({
                   step="0.01"
                   value={distributions}
                   onChange={(e) => setDistributions(parseFloat(e.target.value) || 0)}
-                  className="w-full bg-slate-850 border border-slate-700 rounded-lg pl-7 pr-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-emerald-500"
+                  className="w-full bg-slate-950 border border-slate-700 rounded-lg pl-7 pr-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-emerald-500"
                 />
               </div>
             </div>
@@ -212,7 +214,7 @@ export const HsaModal: React.FC<HsaModalProps> = ({
               <select
                 value={distributionCode}
                 onChange={(e) => setDistributionCode(e.target.value)}
-                className="w-full bg-slate-850 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-emerald-500"
+                className="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-emerald-500"
               >
                 <option value="1 - Normal distribution">1 - Normal qualified medical distribution</option>
                 <option value="2 - Excess contributions returned">2 - Excess contributions returned with earnings</option>
@@ -240,7 +242,7 @@ export const HsaModal: React.FC<HsaModalProps> = ({
               value={notes}
               onChange={(e) => setNotes(e.target.value)}
               placeholder="e.g. Form 5498-SA confirmed, excess contribution return code 2 details..."
-              className="w-full bg-slate-850 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-100 focus:outline-none focus:border-emerald-500"
+              className="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-100 focus:outline-none focus:border-emerald-500"
             />
           </div>
 
@@ -248,7 +250,7 @@ export const HsaModal: React.FC<HsaModalProps> = ({
             <button
               type="button"
               onClick={onClose}
-              className="px-4 py-2 text-xs font-medium text-slate-300 hover:text-slate-100 bg-slate-800 hover:bg-slate-750 rounded-lg"
+              className="px-4 py-2 text-xs font-medium text-slate-300 hover:text-slate-100 bg-slate-800 hover:bg-slate-700 rounded-lg"
             >
               Cancel
             </button>

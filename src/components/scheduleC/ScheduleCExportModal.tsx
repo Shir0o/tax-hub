@@ -60,37 +60,37 @@ export const ScheduleCExportModal: React.FC<ScheduleCExportModalProps> = ({
 
           {/* Form Lines */}
           <div className="space-y-2 text-slate-200">
-            <div className="flex justify-between py-1 border-b border-slate-850">
+            <div className="flex justify-between py-1 border-b border-slate-800">
               <span>Part I Line 1: Gross 1099 Receipts or Sales</span>
               <span className="font-bold text-white">{formatCurrency(packet.gross1099Receipts)}</span>
             </div>
 
-            <div className="flex justify-between py-1 border-b border-slate-850 text-emerald-400">
+            <div className="flex justify-between py-1 border-b border-slate-800 text-emerald-400">
               <span>Part II Line 9: Car and truck expenses ({packet.carExpenseMethod})</span>
               <span className="font-bold">{formatCurrency(packet.carAndTruckExpensesLine9)}</span>
             </div>
 
-            <div className="flex justify-between py-1 border-b border-slate-850">
+            <div className="flex justify-between py-1 border-b border-slate-800">
               <span>Part II Line 18: Office expense</span>
               <span>{formatCurrency(packet.officeExpenseLine18)}</span>
             </div>
 
-            <div className="flex justify-between py-1 border-b border-slate-850">
+            <div className="flex justify-between py-1 border-b border-slate-800">
               <span>Part II Line 22: Supplies</span>
               <span>{formatCurrency(packet.suppliesLine22)}</span>
             </div>
 
-            <div className="flex justify-between py-1 border-b border-slate-850">
+            <div className="flex justify-between py-1 border-b border-slate-800">
               <span>Part II Line 24a: Travel</span>
               <span>{formatCurrency(packet.travelLine24a)}</span>
             </div>
 
-            <div className="flex justify-between py-1 border-b border-slate-850">
+            <div className="flex justify-between py-1 border-b border-slate-800">
               <span>Part II Line 24b: Deductible Meals (50% IRS limitation applied)</span>
               <span>{formatCurrency(packet.mealsLine24bDeductible50Pct)}</span>
             </div>
 
-            <div className="flex justify-between py-1 border-b border-slate-850">
+            <div className="flex justify-between py-1 border-b border-slate-800">
               <span>Part II Line 48: Other expenses (Software, cloud services, books)</span>
               <span>{formatCurrency(packet.otherExpensesLine48)}</span>
             </div>
