@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/Shir0o/tax-hub/compare/tax-hub-v1.1.0...tax-hub-v1.1.1) (2026-11-17)
+
+
+### Bug Fixes
+
+* **ui:** restore dark input contrast and close label in HSA modal ([#4](https://github.com/Shir0o/tax-hub/issues/4)) ([84958ab](https://github.com/Shir0o/tax-hub/commit/84958abcb94e33a477234257c355d09d385ea0be))
+
 ## [1.1.0](https://github.com/Shir0o/tax-hub/compare/tax-hub-v1.0.0...tax-hub-v1.1.0) (2026-11-11)
 
 
